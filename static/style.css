@@ -1,0 +1,52 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    height:100%
+}
+.animated-background {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+   background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    height: 100vh;
+    height:100%
+    
+}
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+#one {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+#two{
+    font-size: 1rem;
+}
+form{
+    padding-top: 2rem;
+}
+.summary_title{
+    background-color: aliceblue;
+    font-size:20px;
+    font-weight:bold;
+    padding:2px;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.summaryTxt {
+    background-color: aliceblue;
+    padding:10px;
+    border-radius: 15px;
+     
+}
